@@ -1,16 +1,19 @@
-.navbar{
-    font-size: 20px;
-    font-family: "hyundaimedium";    
-    width: 100%;
+body{
+    font-family: 'Noto Sans KR';
 }
 
+.navbar{
+    font-size: 20px;
+    width: 100%;
+}
 
 .navBg{
     background-color: #19110b;
 }
 
 .navbar-brand{
-    font-size: 30px;
+    font-size: 50px;
+    margin-left: 30px;
 }
 
 .a{
@@ -74,3 +77,4 @@
     height: 50px;
     word-break: normal;
 }
+
