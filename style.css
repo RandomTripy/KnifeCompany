@@ -19,19 +19,18 @@
 
 .carousel{
     max-width: 1000px;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .form-wrap{
-    width: 450px;
-    height: 170px;
     padding: 15px;
     display: block;
     margin-right: auto;
     margin-left: auto;
-
+    padding-bottom: 20px;
 }
 
 .form-row{
@@ -44,15 +43,30 @@
     display: flex;
     text-align: center;
     flex-direction: column;
-    background-color: #f4f4f4;
+    background-color: #aa9898;
     border-radius: 15px;
     width: 450px;
-    height: 190px;
+    height: 210px;
     margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 0 10px 0;
 }
 
 .underline{
     border-bottom: 1px solid #392d23;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.book{
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    background-color: royalblue;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
 }
 
 .writeInput{
